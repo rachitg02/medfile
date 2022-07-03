@@ -2,10 +2,10 @@ import Head from 'next/head';
 import Button from '../components/Button';
 import SignUpForm from '../components/SignUpForm';
 import PatientForm from '../components/PatientForm';
-import useDwitter from '../hooks/useMedfile';
+import useMedfile from '../hooks/useMedfile';
 
 export default function Home() {
-  const { connect, account, user, createUser,postPatient,patients} = useDwitter();
+  const { connect, account, user, createUser,postPatient,patients} = useMedfile();
 
   return (
     <div className="cursor-pointer flex min-h-screen flex-col items-center justify-center p-1 bg-black">
