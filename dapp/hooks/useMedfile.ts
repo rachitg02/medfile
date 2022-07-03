@@ -3,7 +3,7 @@ import { ethers } from 'ethers';
 import { useEffect, useState } from 'react';
 
 const ContractABI = Medfile.abi;
-const ContractAddress = '0xa3218Cec83C390Dc78aF14eF9De15E54B3206d58';
+const ContractAddress = '0x39410Bd38D4448988886de4d0aE90ACc5E5165ee';
 const Ethereum = typeof window !== 'undefined' && (window as any).ethereum;
 
 const getMedfileContract = () => {
